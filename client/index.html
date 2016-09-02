@@ -4,6 +4,10 @@
 </head>
 <body>
 <div> Hello World! </div>
-
+<script>
+  var numQuestions = prompt('# of questions?');
+  xhttp.open("POST", "/api/questions", numQuestions);
+  xhttp.send();
+</script>
 </body>
 </html>
